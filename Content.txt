@@ -1,0 +1,109 @@
+Site içindeki paragraf yazıları ve kaynakçalar
+yapılacaklar;
+[TODO]
+• yazım hataları hala duruyor. temizlenecek
+• web design olarak iyi görünen bir font bulmam lazım
+• Son teslim tarihine kadar bitiricek
+
+============================================
+Benim Hakkımda
+============================================
+Ben Lüftü Orhun İNAN Bilgisayar Mühendisliği birinci sınıf
+öğrencisiyim. 13 Nisan 2000 yılı Cuma günü istanbul'da doğdum.
+5 yaşına kadar boluda, 10 yaşına kadar erzurumda kaldım.
+sakaryada son 10 yıldır bulunmaktayım. ortaokulu olarak 
+osmanbey ortaokulunu bitirdim. oradan eski adıyla arifiye
+fen lisesine (şimdi ki Necmettin Erbakan Fen Lisesi)gittim. 
+2018 yılında 452,572 puanla sakarya diş hekimliğine 
+kayıt yaptırdım ancak 2020 yılında yatay geçişle bilgisayar 
+mühendisliğine geçiş yaptım. Bilgisayar mühendisliğine 
+bilgisayarlara ve kodlamaya uzun süredir olan ilgimden
+dolayı geçiş yaptım.
+
+genel olarak boş zamanlarımı ders çalışarak, oyun oynayarak veya
+kod yazarak geçirmekteyim. şuanki haliyle c++, c# ve html dillerini
+giriş seviyesinde bilmekteyim. Yaptığım görevleri uzun uzun 
+uğraşmak ve yapabiliceğimin en iyisi şeklinde yapmaktan hoşlanırım.
+
+Gelecekte game designer, sysadmin, backend developer olarak
+çalışmayı isterim***
+[TODO]#Yazı miktarı biraz daha uzatılabilir.#
+
+============================================
+Doğduğum yer hakkında 
+[TODO]#yazıyı direkt wikipedia'dan kopyaladım son teslime kadar düzelt#
+============================================
+İstanbul (Türkçe telaffuz: [isˈtanbuɫ]), Türkiye'de Marmara Bölgesi'nde 
+yer alan şehir ve ülkenin 81 ilinden biri. Ülkenin en kalabalık, 
+ekonomik, tarihi ve sosyo-kültürel açıdan önde gelen şehridir.
+[6][7][8] Şehir, iktisadi büyüklük açısından dünyada 34. sırada yer alır.
+ Nüfuslarına göre şehirler listesinde belediye sınırları göz önüne 
+ alınarak yapılan sıralamaya göre Avrupa'da birinci, dünyada ise altıncı 
+ sırada yer almaktadır.[9][10]
+
+İstanbul Türkiye'nin kuzeybatısında, Marmara kıyısı ve Boğaziçi boyunca, 
+Haliç'i de çevreleyecek şekilde kurulmuştur. İstanbul kıtalararası bir 
+şehir olup, Avrupa'daki bölümüne Avrupa Yakası veya Rumeli Yakası, 
+Asya'daki bölümüne ise Anadolu Yakası veya Asya Yakası denir. 
+Tarihte ilk olarak üç tarafı Marmara Denizi, Boğaziçi ve Haliç'in 
+sardığı bir yarımada üzerinde kurulan İstanbul'un batıdaki sınırını 
+İstanbul Surları oluşturmaktaydı. Gelişme ve büyüme sürecinde 
+surların her seferinde daha batıya ilerletilerek inşa edilmesiyle 
+4 defa genişletilen şehrin[11] 39 ilçesi vardır. Sınırları içerisinde 
+ise büyükşehir belediyesi ile birlikte toplam 40 belediye bulunmaktadır.
+
+Dünyanın en eski şehirlerinden biri olan İstanbul, 330-395 yılları 
+arasında Roma İmparatorluğu, 395-1204 yılları arasında Bizans 
+İmparatorluğu, 1204-1261 yılları arasında Latin İmparatorluğu,
+1261-1453 yılları arasında tekrar Bizans İmparatorluğu ve son 
+olarak 1453-1922 yılları arasında Osmanlı İmparatorluğu'na 
+başkentlik yaptı.[12] Ayrıca İstanbul, Hilâfetin Osmanlı İmparatorluğu'na 
+geçtiği 1517'den kaldırıldığı 1924'e kadar İslam dünyasının da merkezi 
+oldu.[13]
+
+Son yıllarda birbiri ardına ortaya çıkartılan arkeolojik bulgularla 
+insanlık tarihine ilişkin önemli bilgiler elde edilmiştir. 
+Yarımburgaz Mağarası'ndan çıkarılan taş aletlerle, ilkel insan 
+izlerinin 400.000 yıl öncesine dayandığı ortaya çıkmıştır.[14][15]
+[16][17] Anadolu Yakası'nda yürütülen kazı çalışmaları ve bunlara 
+bağlı araştırmalar, şehirde tarım ve hayvancılığa dayalı ilk yerleşik 
+insan topluluğunun MÖ 5500'lere tarihlenen Fikirtepe Kültürü olduğunu 
+göstermiştir.[18] Bu arkeolojik bulgular yalnızca İstanbul'un değil, 
+tüm Marmara Bölgesi'nin en eski insan izleridir.[18] İstanbul sınırları 
+içinde kent bazında ilk yerleşimler ise Anadolu Yakası'nda Kalkedon; 
+Avrupa Yakası'nda Byzantion'dur. Cumhuriyet dönemi öncesinde egemenliği 
+altında olduğu devletlere yüzlerce yıl başkentlik yapan İstanbul, 
+13 Ekim 1923 tarihinde başkentin Ankara'ya taşınmasıyla bu özelliğini 
+yitirmiş; ancak ülkenin ticaret, sanayi, ulaşım, turizm, eğitim, 
+kültür ve sanat merkezi olma özelliğini sürdürmüştür.[19]
+
+Karadeniz ile Marmara Denizi'ni bağlayan ve Asya ile Avrupa'yı 
+ayıran İstanbul Boğazı'na ev sahipliği yapması nedeniyle, 
+İstanbul'un jeopolitik önemi oldukça yüksektir.[20] Bugün 
+tamamına yakını doldurulmuş olan ya da kaybolan doğal limanları 
+vardır. Bu özellikleri yüzünden bölge toprakları üzerinde uzun 
+süreli egemenlik anlaşmazlıkları ve savaşlar yaşanmıştır. 
+Başlıca akarsular Riva, Kâğıthane ve Alibey dereleridir.[21] 
+İl toprakları az engebelidir ve en yüksek noktası Kartal 
+ilçesindeki Aydos Tepesi'dir.[21] İldeki başlıca doğal göller 
+Büyükçekmece, Küçükçekmece ve Durusu gölleridir.[21] 
+İl ve yakın çevresinde, Karadeniz ile Akdeniz makro iklimleri 
+arasında geçiş özellikleri görülür.[21] Hava sıcaklıkları ve 
+yağış ortalamaları düzensiz; bitki örtüsü dengesizdir.[21]
+
+============================================
+API
+[TODO]#API call buna benzer olacak ama daha temiz hali#
+============================================
+[b][u]My Steam Profile[/u][/b] [i](from [URL=https://steamdb.info/calculator/76561198152718306/?cc=us]SteamDB[/URL])[/i]
+
+[list] [*][b]Worth:[/b] $3206 ($820 with sales)
+[*][b]Games owned:[/b] 231
+[*][b]Games played:[/b] 150 [i](64%)[/i]
+[*][b]Hours on record:[/b] 6,813.6h [/list]
+
+============================================
+Fotoğraflar
+============================================
+[TODO]website yapılırken seçerim :P
+
