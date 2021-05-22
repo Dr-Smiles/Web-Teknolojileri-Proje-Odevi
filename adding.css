@@ -144,7 +144,7 @@ html,body
   height:700px;
   min-width:100%;
   background-size: cover;
-  background-position: center;
+  background-position:50% 50%;
   background-repeat: no-repeat;
 }
 
@@ -157,7 +157,62 @@ html,body
   font-size: 2000%;
 }
 
+.bilgi{
+animation: giris 2s 1;
+}
 
+.bilgi img{
+  display:inline-block;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  align-self: center;
+}
+
+.yazi{
+  color: #000d1a;
+  text-decoration: none;
+  padding: 3px;
+  font-family: Raleway;
+  font-weight: 600px;
+}
+
+.yazi a{
+  color: white;
+  text-decoration:none;
+  cursor:pointer;
+
+}
+
+.yaziback{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.bilgisec {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 120%;
+  overflow: hidden;
+}
+
+.bilgisec a{
+  float:right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 25px;
+  transition: background-color 0.5s;
+  text-decoration: none;
+}
+
+.bilgisec a:hover {
+  background-color: #999999;
+  transition: background-color 0.5s;
+  color: white;
+}
 
 #myDIV {
   opacity: 0%;
@@ -169,4 +224,13 @@ html,body
   50% {opacity: 100%;}
   75% {opacity: 100%;}
   to {opacity: 0%;}
+}
+@keyframes giris {
+0% {left:100px; opacity: 0%;}
+100% {left:0; opacity: 100%;}
+}
+
+.ilgialanlarim{
+  height:400px;
+  background-size:contain;
 }
