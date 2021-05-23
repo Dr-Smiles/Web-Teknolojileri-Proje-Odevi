@@ -1,13 +1,70 @@
+<?php
+session_start();
+
+	include("connection2.php");
+
+if($_SERVER['REQUEST_METHOD'] == "POST")
+	{
+		//something was posted
+		$user_name = $_POST['user_name'];
+		$user_email = $_POST['user_email'];
+    $message = $_POST['message'];
+
+		if(!empty($user_name) && !empty($user_email) && !is_numeric($user_name))
+		{
+
+			//save to database
+			$query = "insert into iletisim (user_name,user_email,message) values ('$user_name','$user_email','$message')";
+
+			mysqli_query($con, $query);
+      header("Location: iletisim.php");
+			die;
+		}else
+		{
+			echo "Lütfen Kutuları doldurunuz!";
+		}
+	}
+?>
+
 <!DOCTYPE html>
+	<style type="text/css">
+
+	#text{
+
+		height: 25px;
+		border-radius: 2px;
+		padding: 4px;
+		border: solid thin #aaa;
+		width: 100%;
+	}
+
+	#button{
+
+		padding: 10px;
+		width: 100px;
+		color: white;
+		background-color: lightblue;
+		border: none;
+	}
+
+	#box{
+
+		background-color: #0066b8;
+		margin: auto;
+		padding: 20px;
+	}
+
+	</style>
+
 <html lang="TR-tr" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="adding.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="adding.css">
       <script type="text/javascript" src="script.js"></script>
-    <title>Ana Sayfa</title>
+    <title>Giriş</title>
 
     <style media="screen">
         .container-fluid{
@@ -21,14 +78,14 @@
     <div class="arkamenu">
       <div class="container-fluid">
         <div class="baslik">
-          <a href="index.html">Lütfü Orhun İNAN</a> <c>/Ana Sayfa</c>
+          <a href="index.html">Lütfü Orhun İNAN</a> <c>/İletişim</c>
         </div>
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="topnavigatorbar">
-        <a href="ilgialanlarim.html">İlgi Alanlarım</a>
+				<a href="ilgialanlarim.html">İlgi Alanlarım</a>
         <a href="ozgecmisim.html">Özgeçmişim</a>
         <a href="sehrim.html">Şehrim</a>
         <a href="iletisim.php">İletişim</a>
@@ -37,23 +94,39 @@
       </div>
     </div>
 
-    <div class="container-fluid" >
-      <div class="row" style="height:700px;">
-        <div class="col">
-            <div id="myDIV" class="resim" style="background-image: url(ben.png)">
-              <a href="#"></a>
-            </div>
-            <div id="myDIV" class="resim" style="background-image: url(ben_2.png)">
-            </div>
-            <div id="myDIV" class="resim" style="background-image: url(ben_3.png)">
-            </div>
-        </div>
-      </div>
-    </div>
+<div class="container-fluid" style="height:600px; background-image:url('Varlık 1 yeni.png');background-size:cover;background-repeat:no-repeat;transform: scaleX(-1);">
+<div class="row">
+	<div class="col-sm-2">
 
-    <div class="container-fluid" style="max-height:400px;width: 100%;overflow:hidden;background-color:#004f82;">
-      <div class="taggbox-container" style="width:100%;height:100%;overflow:hidden;"><div class="taggbox-socialwall" data-wall-id="59629" view-url="https://widget.taggbox.com/59629"></div><script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script></div>
-    </div>
+	</div>
+	<div class="col-sm-8">
+		<div id="box" style="height:600px;transform: scaleX(-1);">
+
+			<form method="post">
+				<div style="font-size: 50px;padding-top:50px;color: white;">İletişim</div>
+
+				<div style="font-size: 20px;padding-top:30px;color: white;">İsminiz:</div>
+				<input id="text" type="text" name="user_name"><br><br>
+				<div style="font-size: 20px;padding-top:5px;color: white;">E-Mail Adresiniz:</div>
+				<input id="text" type="text" name="user_email"><br><br>
+				<div style="font-size: 20px;padding-top:5px;color: white;">Mesajınız:</div>
+				<input id="text" type="text" name="message" style="height:100px;"><br><br>
+
+				<div class="row">
+					<div class="col">
+					</div>
+					<div class="col">
+						<input id="button" type="submit" value="Gönder" style="float:right;">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="col-sm-2">
+
+	</div>
+</div>
+</div>
 
     <div class="container-fluid altmenu flex-grow-1">
       <div class="row">
